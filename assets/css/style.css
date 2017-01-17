@@ -113,3 +113,32 @@ iframe {
 
 figure {
   margin: 0; }
+
+/*
+ *  Tabs
+ */
+nav.tabs ul.tabs {
+  margin: 0;
+  padding: 10px;
+  text-align: center; }
+
+nav.tabs ul.tabs li {
+  margin-right: 15px; }
+
+nav.tabs ul.tabs li a {
+  font-size: 16px;
+  padding: 13px 20px 10px 20px;
+  border-bottom: 3px solid #ddd;
+  background: none;
+  color: #444;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+  transition-property: color, border-color; }
+  nav.tabs ul.tabs li a:hover {
+    color: #333333;
+    border-color: #333333; }
+  nav.tabs ul.tabs li a.is-active {
+    background: #333333;
+    color: white;
+    border-color: #333333;
+    transition: none; }

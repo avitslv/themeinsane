@@ -3,8 +3,14 @@
   display: table;
   clear: both; }
 
-@font-face {}.icon, [class^="icon-"], [class*=" icon-"] {
-  font-family: 'themeinsane' !important;
+@font-face {
+  font-family: 'insanefonts';
+  src: url("../fonts/insanefonts/fonts/insanefonts.ttf?3ddj51") format("truetype"), url("../fonts/insanefonts/fonts/insanefonts.woff?3ddj51") format("woff"), url("../fonts/insanefonts/fonts/insanefonts.svg?3ddj51#insanefonts") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.icon, [class^="icon-"], [class*=" icon-"] {
+  font-family: 'insanefonts' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -17,6 +23,12 @@
 /*
  *  COPY ICON FONT CLASSES BELOW
 */
+.icon-chevron-left:before {
+  content: "\e900"; }
+
+.icon-chevron-right:before {
+  content: "\e901"; }
+
 * {
   box-sizing: border-box; }
 

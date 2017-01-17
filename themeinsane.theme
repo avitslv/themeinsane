@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming and debugging
+ */
+
+use Drupal\Core\Render\Element;
+use Drupal\image\Entity\ImageStyle;
+use Drupal\core\Url;
+use Drupal\Core\Link;
+use Drupal\Component\Utility\Html;
+
+/**
+ * Implements template_preprocess_field().
+ */
+function themeinsane_preprocess_field(&$variables) {
+
+}
+
+/**
+ * Implements template_preprocess_page().
+ */
+function themeinsane_preprocess_page(&$variables) {
+
+}
+
+/**
+ * Implements template_preprocess_node().
+ */
+function themeinsane_preprocess_node(&$variables) {
+
+}
+
+/**
+ * Implements template_preprocess_page().
+ */
+function themeinsane_theme_suggestions_page_alter(array &$suggestions, array $variables, $hook) {
+
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $suggestions[] = 'page__node__' . $node->getType();
+  }
+  $path = \Drupal::service('path.current')->getPath();
+
+}

@@ -1,0 +1,14 @@
+{
+  "name": "themeinsane",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "breakpoint-sass": "^2.7.1",
+    "gulp": "3.9.1",
+    "gulp-livereload": "3.8.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "2.3.2"
+  }
+}

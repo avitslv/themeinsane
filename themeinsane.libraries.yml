@@ -1,0 +1,20 @@
+global:
+  css:
+    theme:
+      assets/vendor/swiper/dist/css/swiper.min.css: { media: screen }
+      assets/css/style.css: { media: screen }
+  js:
+    assets/vendor/swiper/dist/js/swiper.min.js: {}
+    assets/js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+    - views/views.ajax
+fonts:
+  css:
+    theme:
+      # Example to add external style, e.g. font css from google fonts
+      # '//fonts.googleapis.com/css?family=Kaushan+Script': { type: external, minified: true }

@@ -1,0 +1,17 @@
+name: theme insane
+type: theme
+description: theme insane starterkit sub-theme
+base theme: classy
+core: 8.x
+
+#-------------- L I B R A R I E S -----------------
+
+libraries:
+ - themeinsane/global
+ - themeinsane/fonts
+
+#---------------- R E G I O N S -------------------
+regions:
+  header: Header
+  content: Content
+  footer: Footer

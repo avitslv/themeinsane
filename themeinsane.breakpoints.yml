@@ -1,0 +1,30 @@
+themeinsane.mobile:
+  label: mobile
+  mediaQuery: 'all and (min-width: 0px)'
+  weight: 0
+  multipliers:
+    - 1x
+themeinsane.mobile_landscape:
+  label: mobile_landscape
+  mediaQuery: 'all and (min-width: 480px) and (max-width: 759px)'
+  weight: 1
+  multipliers:
+    - 1x
+themeinsane.tablet:
+  label: tablet
+  mediaQuery: 'all and (min-width: 760px) and (max-width: 1019px)'
+  weight: 2
+  multipliers:
+    - 1x
+themeinsane.desktop:
+  label: desktop
+  mediaQuery: 'all and (min-width: 1020px) and (max-width: 1299px)'
+  weight: 3
+  multipliers:
+    - 1x
+themeinsane.large_desktop:
+  label: large_desktop
+  mediaQuery: 'all and (min-width: 1300px)'
+  weight: 4
+  multipliers:
+    - 1x

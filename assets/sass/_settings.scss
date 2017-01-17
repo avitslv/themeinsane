@@ -1,0 +1,41 @@
+// =============================================================================
+// Colors
+// =============================================================================
+
+//	Project specific colors
+$color-alpha: #333333;
+$color-beta: #333333;
+$color-gamma: #333333;
+$color-delta: #333333;
+$color-epsilon: #333333;
+
+//	Element colors
+$text-color: #333333;
+$text-selection-color: #333333;
+$headings-color: #333333;
+$link-color: inherit;
+$link-color-hover: inherit;
+
+//	Font settings
+$base-font: Helvetica, Arial, sans-serif;
+$heading-font: Helvetica, Arial, sans-serif;
+
+// =============================================================================
+// Breakpoints
+// =============================================================================
+$breakpoint-xxs:        320px;
+$breakpoint-xxs-max:    479px;
+$breakpoint-xs:         480px;
+$breakpoint-xs-max:     519px;
+$breakpoint-s:          520px;
+$breakpoint-s-big:      600px;
+$breakpoint-s-max:      759px;
+$breakpoint-m:          760px;
+$breakpoint-m-max:      1019px;
+$breakpoint-l:          1020px;
+$breakpoint-l-max:      1299px;
+$breakpoint-xl:         1300px;
+$breakpoint-xl-max:     1399px;
+$breakpoint-xxl:        1400px;
+$breakpoint-xxxl:       1500px;
+$breakpoint-max:        1600px;

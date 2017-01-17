@@ -32,3 +32,13 @@ bower install
 ```sh
 @todo bash command needed here
 ```
+
+##### Compiling styles
+To watch for file changes, launch livereload and compile styles run
+```sh
+gulp
+```
+To compile styles once run
+```sh
+gulp sass
+```
